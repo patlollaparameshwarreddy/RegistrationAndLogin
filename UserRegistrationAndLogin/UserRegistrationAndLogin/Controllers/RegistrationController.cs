@@ -1,4 +1,8 @@
-﻿
+﻿//-----------------------------------------------------------------------
+// <copyright file="RegistrationController.cs" company="CompanyName">
+//     Company copyright tag.
+// </copyright>
+//-----------------------------------------------------------------------
 namespace UserRegistrationAndLogin.Controllers
 {
     using System;
@@ -27,8 +31,8 @@ namespace UserRegistrationAndLogin.Controllers
             try
             {
                 ////list will store all the data from the get all user method
-                IList<RegistrationModel> movies = this.retrieval.GetAllUser().Result;
-                return movies;
+                IList<RegistrationModel> users = this.retrieval.GetAllUser().Result;
+                return users;
             }
             catch (Exception e)
             {

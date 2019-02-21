@@ -1,15 +1,18 @@
-﻿using Dapper;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Threading.Tasks;
-using UserRegistrationAndLogin.Model;
-using UserRegistrationAndLogin.Repository;
-
+﻿//-----------------------------------------------------------------------
+// <copyright file="UserData.cs" company="CompanyName">
+//     Company copyright tag.
+// </copyright>
+//-----------------------------------------------------------------------
 namespace UserRegistrationAndLogin.Repository
 {
+    using Dapper;
+    using System;
+    using System.Collections.Generic;
+    using System.Data;
+    using System.Data.SqlClient;
+    using System.Threading.Tasks;
+    using UserRegistrationAndLogin.Model;
+
     public class UserData
     {
         /// <summary>
